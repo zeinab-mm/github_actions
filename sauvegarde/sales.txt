@@ -1,0 +1,7 @@
+Date de scraping Sun May 26 20:36:01 UTC 2024
+rtx3060 : 7
+rtx3070 : 7
+rtx3080 : 7
+rtx3090 : 6
+rx6700 : 15
+

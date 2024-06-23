@@ -1,0 +1,371 @@
+    1  cat .bashrc 
+    2  ls -la
+    3  cat .bash_history
+    4  vim .bash_history
+    5  exit
+    6  tmux
+    7  sudo apt-get update
+    8  sudo apt-get install curl
+    9  mkdir exam_MADOUGOU
+   10  pwd
+   11  ls
+   12  cd exam_MADOUGOU
+   13  touch exam.sh
+   14  chmod -rwx---r-x exam.sh
+   15  wget --no-cache https://dst-de.s3.eu-west-3.amazonaws.com/bash_fr/api.tar
+   16  tar -xvf api.tar
+   17  chmod +x api
+   18  ./api &
+   19  mkdir repo
+   20  cd repo
+   21  git init
+   22  ls -a
+   23  cd .git
+   24  ls
+   25  touch doc.txt
+   26  git commit -m "Mon premier fichier dans mon répertoire git"
+   27  git add doc.txt
+   28  "Mon premier fichier dans mon répertoire git" > doc.txt
+   29  Mon premier fichier dans mon répertoire git > doc.txt
+   30  git status
+   31  git add doc.txt
+   32  ls
+   33  ps -ef 
+   34  clear
+   35  ps -ef | api
+   36  ps -ef | grep api
+   37  ls
+   38  cd exam_MADOUGOU/
+   39  ls
+   40  more exam.sh 
+   41  ls -lrt
+   42  id
+   43  clear
+   44  cd ..
+   45  ls
+   46  ls -lrt ./api
+   47  ./api &
+   48  ps -ef | grep api
+   49  ls
+   50  cd exam_MADOUGOU/
+   51  ls
+   52  mkdir exam_bash
+   53  curl -h
+   54  clear
+   55  ls
+   56  http://172.31.12.60:5000/rtx3060
+   57  curl http://172.31.12.60:5000/rtx3060
+   58  curl http://0.0.0.0:5000/rtx3060
+   59  ls
+   60  cd ..
+   61  ls
+   62  cd api
+   63  more api
+   64  ls
+   65  cd exam_MADOUGOU/
+   66  ls
+   67  cls
+   68  clear
+   69  ls
+   70  cd exam_bash/
+   71  curl http://0.0.0.0:5000
+   72  curl http://0.0.0.0:5000/rtx3060
+   73  curl http://0.0.0.0:5000/rtx3070
+   74  ls exam.sh
+   75  vi exam.sh
+   76  ls exam.sh 
+   77  ls exam.sh -lrt
+   78  chmod +x exam.sh 
+   79  ./exam.sh 
+   80  vi exam.sh 
+   81  ./exam.sh 
+   82  vi exam.sh 
+   83  ./exam.sh 
+   84  vi exam.sh 
+   85  ./exam.sh 
+   86  vi exam.sh 
+   87  ./exam.sh 
+   88  vi exam.sh 
+   89  ./exam.sh 
+   90  vi exam.sh 
+   91  ./exam.sh 
+   92  vi exam.sh 
+   93  ./exam.sh 
+   94  vi exam.sh 
+   95  ./exam.sh 
+   96  vi exam.sh 
+   97  ./exam.sh 
+   98  vi exam.sh 
+   99  ./exam.sh 
+  100  vi exam.sh 
+  101  ./exam.sh 
+  102  vi exam.sh 
+  103  ./exam.sh 
+  104  vi exam.sh 
+  105  ./exam.sh 
+  106  vi exam.sh 
+  107  ./exam.sh 
+  108  vi exam.sh 
+  109  ./exam.sh 
+  110  vi exam.sh 
+  111  ./exam.sh 
+  112  vi exam.sh 
+  113  ./exam.sh 
+  114  vi exam.sh 
+  115  ./exam.sh 
+  116  vi exam.sh 
+  117  ./exam.sh 
+  118  vi exam.sh 
+  119  ./exam.sh 
+  120  vi exam.sh 
+  121  ./exam.sh 
+  122  vi exam.sh 
+  123  ./exam.sh 
+  124  vi exam.sh 
+  125  ./exam.sh 
+  126  vi exam.sh 
+  127  ./exam.sh 
+  128  vi exam.sh 
+  129  ./exam.sh 
+  130  vi exam.sh 
+  131  ./exam.sh 
+  132  pwd
+  133  cd repo
+  134  ls
+  135  ls -a
+  136  touch doc.tx
+  137  ls
+  138  "Mon premier fichier dans mon répertoire git" > doc.txt
+  139  echo "Mon premier fichier dans mon répertoire git" > doc.txt
+  140  git status
+  141  git add doc.txt
+  142  git commit -m "ajout du fichier de documentation"
+  143  echo 'nouvelle ligne' >> doc.txt
+  144  git status
+  145  git add doc.txt
+  146  git commit -m "ajout de ligne"
+  147  git config --global user.name "Zeinab"
+  148  git config --global user.email "zeinab.madougou@gmail.com"
+  149  git log
+  150  git log --oneline
+  151  git log --oneline --graph --name-status
+  152  git diff numero_de_commit1 numero_de_commit2
+  153  git diff d76fdc415dc48f44b35630bdbe9788bc515e5ec9 33b1e06cd1f655a72d073580bdaf5043ada7a772
+  154  ls
+  155  cd DataScientest_zm
+  156  git clone https://github.com/zeinab-mm/DataScientest_zm.git
+  157  git push
+  158  ssh-keygen -t rsa -b ed25519 -C "zeinab.madougou@gmail.com"
+  159  ssh-keygen -t rsa -b 4096 -C "zeinab.madougou@gmail.com"
+  160  ls -a
+  161  cd .ssh
+  162  ls
+  163  cat id_rsa.pub
+  164  git clone https://github.com/zeinab-mm/DataScientest_zm.git
+  165  cd DataScientest_zm
+  166  nano fichier_1.txt
+  167  git status
+  168  nano fichier_1.txt
+  169  git status
+  170  git add fichier_1.txt
+  171  git push
+  172  ls
+  173  cd exam_MADOUGOU/
+  174  ls
+  175  cd exam_bash/
+  176  ls
+  177  vi exam.sh 
+  178  ./exam.sh 
+  179  vi exam.sh 
+  180  ./exam.sh 
+  181  vi exam.sh 
+  182  ./exam.sh 
+  183  vi exam.sh 
+  184  ./exam.sh 
+  185  vi exam.sh 
+  186  ls
+  187  cd exam_MADOUGOU/
+  188  ls
+  189  vi exam.sh 
+  190  ls -lrt
+  191  rm exam.sh 
+  192  clear
+  193  cd exam_bash/
+  194  ls
+  195  more exam.sh 
+  196  clear
+  197  vi exam.sh 
+  198  ./exam.sh 
+  199  vi exam.sh 
+  200  ./exam.sh 
+  201  vi exam.sh 
+  202  ./exam.sh 
+  203  vi exam.sh 
+  204  ./exam.sh 
+  205  vi exam.sh 
+  206  ./exam.sh 
+  207  vi exam.sh 
+  208  ./exam.sh 
+  209  vi exam.sh 
+  210  ./exam.sh 
+  211  vi exam.sh 
+  212  ./exam.sh 
+  213  vi exam.sh 
+  214  ./exam.sh 
+  215  vi exam.sh 
+  216  ./exam.sh 
+  217  vi exam.sh 
+  218  ./exam.sh 
+  219  vi exam.sh 
+  220  ./exam.sh 
+  221  vi exam.sh 
+  222  ./exam.sh 
+  223  vi exam.sh 
+  224  ./exam.sh 
+  225  vi exam.sh 
+  226  clear
+  227  ./exam.sh 
+  228  vi exam.sh 
+  229  ./exam.sh 
+  230  vi exam.sh 
+  231  ./exam.sh 
+  232  vi exam.sh 
+  233  ./exam.sh 
+  234  vi exam.sh 
+  235  ./exam.sh 
+  236  vi exam.sh 
+  237  ./exam.sh 
+  238  vi exam.sh 
+  239  ./exam.sh 
+  240  vi exam.sh 
+  241  ./exam.sh 
+  242  vi exam.sh 
+  243  ./exam.sh 
+  244  ps -ef | grep api
+  245  ls
+  246  cd ..
+  247  ls
+  248  cd ..
+  249  ls
+  250  ./api &
+  251  ls
+  252  cd exam_MADOUGOU/
+  253  ls
+  254  cd exam_bash/
+  255  ls
+  256  ./exam.sh 
+  257  vi exam.sh 
+  258  ./exam.sh 
+  259  vi exam.sh 
+  260  ./exam.sh 
+  261  vi exam.sh 
+  262  ./exam.sh 
+  263  vi exam.sh 
+  264  ./exam.sh 
+  265  vi exam.sh 
+  266  ./exam.sh 
+  267  cls
+  268  clear
+  269  ./exam.sh 
+  270  vi exam.sh 
+  271  ./exam.sh 
+  272  ls
+  273  more test.txt 
+  274  vi exam.sh 
+  275  ./exam.sh 
+  276  ls
+  277  more test.txt 
+  278  ./exam.sh 
+  279  more test.txt 
+  280  ./exam.sh 
+  281  more test.txt 
+  282  vi exam.sh 
+  283  ./exam.sh 
+  284  vi exam.sh 
+  285  ./exam.sh 
+  286  vi exam.sh 
+  287  ./exam.sh 
+  288  vi exam.sh 
+  289  ./exam.sh 
+  290  ls
+  291  rm test.txt 
+  292  more sales.txt 
+  293  vi exam.sh 
+  294  ls
+  295  rm sales.txt 
+  296  ./exam.sh 
+  297  ls
+  298  more sales.txt 
+  299  vi exam.sh 
+  300  ./exam.sh 
+  301  more sales.txt 
+  302  ./exam.sh 
+  303  more sales.txt 
+  304  vi exam.sh 
+  305  ./exam.sh 
+  306  more sales.txt 
+  307  ls
+  308  rm sales.txt 
+  309  vi exam.sh 
+  310  rm sales.txt 
+  311  vi exam.sh 
+  312  ./exam.sh 
+  313  ls
+  314  more sales.txt 
+  315  crontab -e
+  316  pwd
+  317  ls
+  318  rm sales.txt
+  319  pwd
+  320  ls
+  321  crontab -e
+  322  crontab -l
+  323  ls
+  324  ls -lrt
+  325  ls
+  326  crontab -e
+  327  crontab -l
+  328  ls
+  329  crontab -e
+  330  pwd
+  331  ls
+  332  vi exam.sh 
+  333  ls
+  334  ./exam.sh 
+  335  ls
+  336  more sales.txt 
+  337* 
+  338  rm sales.txt 
+  339  crontab -e
+  340  crontab -l
+  341  ls
+  342  crontab -e
+  343  contrab 
+  344  crontab -l
+  345  ls
+  346  more sales.txt 
+  347  vi touch cron.txt
+  348  ls
+  349  rm touch 
+  350  more sales.txt 
+  351  vi cron.txt
+  352  more cron.txt 
+  353  crontab -e
+  354  vi cron.txt 
+  355  ls
+  356  more sales.txt 
+  357  crontab -e
+  358  vi exam.sh 
+  359  ls
+  360  vi exam.sh 
+  361  ls
+  362  ./exam.sh 
+  363  more sales.txt 
+  364* 
+  365  more cron.txt 
+  366  contrab -e
+  367  crontab -e
+  368  A
+  369  cd ..
+  370  history
+  371  history >> terminal.txt
