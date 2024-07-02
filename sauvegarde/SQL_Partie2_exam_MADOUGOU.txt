@@ -1,0 +1,29 @@
+#Les requêtes permettant de répondre aux questions (_Optionnel_)
+
+exam_MADOUGOU=# SELECT Type.name_type, count(Pokemon.name_pokemon)  FROM Type JOIN Pokemon USING(pokedex_number)
+group by Type.name_type;
+
+exam_MADOUGOU=# SELECT Type.name_type, Pokemon.base_total  FROM Type JOIN Pokemon USING(pokedex_number)
+order base_total desc;
+
+exam_MADOUGOU=# SELECT Type.name_type, avg(Pokemon.base_total)  FROM Type JOIN Pokemon USING(pokedex_number)
+group by Type.name_type
+order by avg(Pokemon.base_total) ;
+
+exam_MADOUGOU=# SELECT Type.name_type, Pokemon.base_total  FROM Type JOIN Pokemon USING(pokedex_number)
+where ability = "Overgrow"
+order by avg(Pokemon.base_total) ;
+
+#exam_MADOUGOU=# SELECT Type.name_type, Pokemon.base_total  FROM Type JOIN Pokemon USING(pokedex_number)
+where ability = "Overgrow"
+order by avg(Pokemon.base_total) ;
+
+exam_MADOUGOU=# SELECT Type.name_type, Pokemon.generation,  sum(Stats.hp) as total_stats
+  FROM Type JOIN Stats USING(pokedex_number) and JOIN Pokemon USING(pokedex_number)
+where sum(Stats.hp) > (select avg(Pokemon.base_total)  FROM Type JOIN Pokemon)
+group by Type.name_type, Pokemon.generation
+order by sum(Stats.hp)  ;
+
+Requête 7: Trouver les Pokémon de type "fire" avec une attaque supérieure à 100.
+
+Requête 8: Indiquer si le total des stats d'un Pokémon est supérieur ou inférieur à la moyenne par génération.
